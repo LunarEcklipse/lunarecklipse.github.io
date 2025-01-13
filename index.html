@@ -30,6 +30,12 @@
                 pswpModule: Photoswipe
             });
             fnsLightbox.init();
+            vfLightbox = new PhotoSwipeLightbox({
+                gallery: '#photogallery--verityfalls',
+                children: 'a',
+                pswpModule: Photoswipe
+            });
+            vfLightbox.init();
         </script>
         <link rel="stylesheet" href="scripts/photoswipe/dist/photoswipe.css">
     </head>
@@ -178,9 +184,41 @@
                     <h2 class="project--title">Verity Falls</h2>
                     <p class="project--date"><i class="fa-solid fa-calendar-days"></i> April 2024</p>
                     <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Hans Bachman and Liam Bradley.</p>
+                    <div class="project--video"><iframe width="560" height="315" src="https://www.youtube.com/embed/UcwBRrrP1M8?si=Bkb_O1_J1mrQ1D4d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                     <p><a class="project--link" href="https://github.com/LunarEcklipse/GameDesign_VerityFalls"><i class="fa-brands fa-github"></i> Verity Falls - GitHub</a></p>
                     <p class="project--description"><span class="title--deco">Verity Falls</span> is a visual novel video game created for the Game Design: Theory and Practice class at the University of Lethbridge using Unity. It features a cast of characters whose car is sabotaged as they arrive in town as they try to figure out who wants to keep them there and why.</p>
-                    <p class="project--description">Verity Falls features 3D environments that the player can explore and interact with, as well as a cast of characters they can speak to. The dialogue system was made entirely from scratch, and characters can move around and change their dialogue in response to events and player progression.</p>
+                    <p class="project--description">Verity Falls features 3D environments that the player can explore and interact with, as well as a cast of characters they can speak to. The dialogue system was made entirely from scratch, and characters can move around and change their dialogue in response to events, player progression, or even what character the player is currently playing as.</p>
+                    <div class="photoswipe--gallery" id="photogallery--verityfalls">
+                        <a href="images/verityfalls/1.png"
+                            data-pswp-width="2560"
+                            data-pswp-height="1440"
+                            target="_blank">
+                            <img src="images/verityfalls/thumbnails_256/1.png" alt="An image showing the dialogue system in Verity Falls as characters talk to each other.">
+                        </a>
+                        <a href="images/verityfalls/2.png"
+                            data-pswp-width="2560"
+                            data-pswp-height="1440"
+                            target="_blank">
+                            <img src="images/verityfalls/thumbnails_256/2.png" alt="An image from Verity Falls explaining how character reactions change based on who is speaking to them.">
+                        </a>
+                        <a href="images/verityfalls/3.png"
+                            data-pswp-width="2560"
+                            data-pswp-height="1440"
+                            target="_blank">
+                            <img src="images/verityfalls/thumbnails_256/3.png" alt="An image showing the dialogue system in Verity Falls as an important plot point is revealed.">
+                        </a>
+                        <a href="images/verityfalls/4.png"
+                            data-pswp-width="2560"
+                            data-pswp-height="1440"
+                            target="_blank">
+                            <img src="images/verityfalls/thumbnails_256/4.png" alt="An image showing the dialogue system in Verity Falls as an important evidence item is discovered.">
+                        </a>
+                        <a href="images/verityfalls/5.png"
+                            data-pswp-width="2560"
+                            data-pswp-height="1440"
+                            target="_blank">
+                            <img src="images/verityfalls/thumbnails_256/5.png" alt="An image showing the inventory system in Verity Falls.">
+                        </a>
                 </div>
             <hr />
                 <div class="project--card" id="project--crossingwires" class="project--code project--arduino">
