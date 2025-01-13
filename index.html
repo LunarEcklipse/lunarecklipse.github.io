@@ -30,6 +30,12 @@
                 pswpModule: Photoswipe
             });
             fnsLightbox.init();
+            pastaLightbox = new PhotoSwipeLightbox({
+                gallery: '#photogallery--purrfectpasta',
+                children: 'a',
+                pswpModule: Photoswipe
+            });
+            pastaLightbox.init();
             vfLightbox = new PhotoSwipeLightbox({
                 gallery: '#photogallery--verityfalls',
                 children: 'a',
@@ -54,7 +60,7 @@
                     <div class="project--card" id="project--vamplify" class="project--game project--code project--unity">
                         <h2 class="project--title">Vamplify</h2>
                         <p class="project--date"><i class="fa-solid fa-calendar-days"></i> December 2024</p>
-                        <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Luke Souter and Liam Bradley.</p>
+                        <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Luke Souter and Liam Bradley (My Role: Gameplay Design and Programming)</p>
                         <div class="project--video"><iframe width="560" height="315" src="https://www.youtube.com/embed/GwsUInMpFME?si=uMDRYMxRu3y2M4dN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                         <p><a class="project--link" href="https://github.com/LunarEcklipse/AdvancedGameDesign_Vamplify"><i class="fa-brands fa-github"></i> Vamplify - GitHub</a></p>
                         <p class="project--description"><span class="title--deco">Vamplify</span> is a turn-based roguelike video game built in Unity Engine in two months for the Advanced Game Design Studio class at the University of Lethbridge. The player plays as a vampire who enters a manor with the goal of achieving as much power as possible. This power is achieved by the grafting of limbs of fallen opponents onto one's body.</p>
@@ -133,7 +139,7 @@
                     <div class="project--card" id="project--4096" class="project--game project--code project--unity project--blender">
                         <h2 class="project--title">4096</h2>
                         <p class="project--date"><i class="fa-solid fa-calendar-days"></i> October 2024</p>
-                        <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Chimere Ajoku.</p>
+                        <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Chimere Ajoku (My Role: Gameplay Design and Programming).</p>
                         <div class="project--video"><iframe width="560" height="315" src="https://www.youtube.com/embed/z9SC6ssCKnI?si=38DdNCYY-LKr5oTP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                         <p><a class="project--link" href="https://github.com/LunarEcklipse/AdvancedGameDesign_4096"><i class="fa-brands fa-github"></i> 4096 - GitHub</a></p>
                         <p class="project--description"><span class="title--deco">4096</span> is a puzzle video game created in five days for the Advanced Game Design Studio class at the University of Lethbridge. Created in a Game Jam style setting, it was inspired by a prompt, for which we were given the number "4096".</p>
@@ -174,16 +180,49 @@
                     <div class="project--card" id="project--purrfectpasta" class="project--game project--code project--unity">
                         <h2 class="project--title">Purrfect Pasta</h2>
                         <p class="project--date"><i class="fa-solid fa-calendar-days"></i> September 2024</p>
-                        <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Lauren Gulka and Melanie Oslie.</p>
+                        <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Lauren Gulka and Melanie Oslie (My Role: Gameplay Design and Programming).</p>
+                        <div class="project--video"><iframe width="560" height="315" src="https://www.youtube.com/embed/xpzOD3wYoz0?si=ECubgWOA34p3VrGb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                         <p><a class="project--link" href="https://github.com/LunarEcklipse/AdvancedGameDesign_4096"><i class="fa-brands fa-github"></i> 4096 - GitHub</a></p>
                         <p class="project--description"><span class="title--deco">Purrfect Pasta</span> is a puzzle video game created in five days for the Advanced Game Design Studio class at the University of Lethbridge. Created in a Game Jam style setting, it was inspired by a prompt, for which we were given "Food".</p>
                         <p class="project--description">We decided to create a sort of Diner Dash style experience for the purposes of this project where the player plays as a cat serving various cat-themed pastas. Customers come into the restaurant at regular intervals and sit at tables, where they will request a pasta with a certain noodle, sauce, and topping. The player must mix and match their plate to meet the demands of these customers to serve them correctly.</p>
+                        <div class="photoswipe--gallery" id="photogallery--purrfectpasta">
+                            <a href="images/purrfectpasta/1.png"
+                                data-pswp-width="2560"
+                                data-pswp-height="1440"
+                                target="_blank">
+                                <img src="images/purrfectpasta/thumbnails_256/1.png" alt="The title screen of Purrfect Pasta.">
+                            </a>
+                            <a href="images/purrfectpasta/2.png"
+                                data-pswp-width="2560"
+                                data-pswp-height="1440"
+                                target="_blank">
+                                <img src="images/purrfectpasta/thumbnails_256/2.png" alt="Gameplay of Purrfect Pasta.">
+                            </a>
+                            <a href="images/purrfectpasta/3.png"
+                                data-pswp-width="2560"
+                                data-pswp-height="1440"
+                                target="_blank">
+                                <img src="images/purrfectpasta/thumbnails_256/3.png" alt="Gameplay of Purrfect Pasta.">
+                            </a>
+                            <a href="images/purrfectpasta/4.png"
+                                data-pswp-width="2560"
+                                data-pswp-height="1440"
+                                target="_blank">
+                                <img src="images/purrfectpasta/thumbnails_256/4.png" alt="Gameplay of Purrfect Pasta.">
+                            </a>
+                            <a href="images/purrfectpasta/5.png"
+                                data-pswp-width="2560"
+                                data-pswp-height="1440"
+                                target="_blank">
+                                <img src="images/purrfectpasta/thumbnails_256/5.png" alt="Gameplay of Purrfect Pasta.">
+                            </a>
+                        </div>
                     </div>
                 <hr />
                 <div class="project--card" id="project--verityfalls" class="project--game project--code project--unity project--blender">
                     <h2 class="project--title">Verity Falls</h2>
                     <p class="project--date"><i class="fa-solid fa-calendar-days"></i> April 2024</p>
-                    <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Hans Bachman and Liam Bradley.</p>
+                    <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Hans Bachman and Liam Bradley (My Role: Gameplay Design and Programming).</p>
                     <div class="project--video"><iframe width="560" height="315" src="https://www.youtube.com/embed/UcwBRrrP1M8?si=Bkb_O1_J1mrQ1D4d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                     <p><a class="project--link" href="https://github.com/LunarEcklipse/GameDesign_VerityFalls"><i class="fa-brands fa-github"></i> Verity Falls - GitHub</a></p>
                     <p class="project--description"><span class="title--deco">Verity Falls</span> is a visual novel video game created for the Game Design: Theory and Practice class at the University of Lethbridge using the Unity game engine. It features a cast of characters whose car is sabotaged as they arrive in town as they try to figure out who wants to keep them there and why.</p>
@@ -225,12 +264,13 @@
                 <div class="project--card" id="project--crossingwires" class="project--code project--arduino">
                     h2 class="project--title">Crossing Wires</h2>
                     <p class="project--date"><i class="fa-solid fa-calendar-days"></i> April 2024</p>
-                    <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Ali Taylor, Jordan Collington, and Jayla Robertson.</p>
+                    <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Ali Taylor, Jordan Collington, and Jayla Robertson (My Role: UI Design and Programming).</p>
                     <p class="project--nmedwinner"><i class="fa-solid fa-award"></i> Nominated for the University of Lethbridge New Media Student Showcase.</p>
                     <div class="project--video"><iframe width="560" height="315" src="https://www.youtube.com/embed/jA5OOVJXqY4?si=E_jHjGIDDpH4A0P4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                     <p><a class="project--link" href="https://ulethnewmedia.com/2024/crossing-wires/"><i class="fa-brands fa-youtube"></i> Crossing Wires - University of Lethbridge New Media Student Showcase</a></p>
                     <p class="project--description"><span class="title--deco">Crossing Wires</span> was an interactive installation created for the Interaction Design course at the University of Lethbridge that explored how one's concept of time is a function of our memories, and how as those memories fade, so can our ability to understand it.</p>
                     <p class="project--description">The project made use of two computers running the Processing programming language as well as two Arduino devices. The Arduino devices could communicate with one another through morse code, which the two computers using Processing could then process the data from. To facilitate this, users were prompted to answer questions on one computer through a custom interface implemented in Processing, which would then be transmitted to the other via Arduino. However, there were many intentional flaws left in the method of data transmission to introduce variable amounts of disruption into the overall output, which led to answers provided to one computer being skewed when received by the other. This emulated the process of how details can be lost as memory ages, with recall failing during the passage of time.</p>
+                    <p class="project--description">All of the code for the Morse Code translation and communication was designed from scratch and implemented using C++, and the UIs for both the older and newer version of Windows were recreated in Processing to help give the user interface a familiar feel.</p>
                 </div>
             </main>
             <footer>
