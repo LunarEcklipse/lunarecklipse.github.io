@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function(event) { // Wait until ev
 
 function hideElementsFromClass(pageClass)
 {
+    console.log("Hiding elements from class: " + pageClass);
     var elements = document.getElementsByClassName(pageClass);
     for (var i = 0; i < elements.length; i++) {
         elements[i].classList.add("hidden");
@@ -55,6 +56,7 @@ function hideElementsFromClass(pageClass)
 
 function showElementsFromClass(pageClass)
 {
+    console.log("Showing elements from class: " + pageClass);
     var elements = document.getElementsByClassName(pageClass);
     for (var i = 0; i < elements.length; i++) {
         elements[i].classList.remove("hidden");
