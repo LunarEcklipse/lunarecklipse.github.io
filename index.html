@@ -34,8 +34,8 @@
                 <h1 id="project--title">Projects</h2>
                 <hr />
                 <div id="project--container">
-                    <div class="project--card" id="project--vamplify">
-                        <h2 class="project--title"><i class="fa-solid fa-gamepad"></i> Vamplify</h3>
+                    <div class="project--card" id="project--vamplify" class="project--game project--code project--unity">
+                        <h2 class="project--title"><i class="fa-solid fa-gamepad"></i><i class="fa-solid fa-code"></i><i class="fa-brands fa-unity"></i> Vamplify</h3>
                         <p class="project--date"><i class="fa-solid fa-calendar-days"></i> December 2024</p>
                         <p class="project--collab"><i class="fa-solid fa-users"></i> Created in Collaboration with Luke Souter and Liam Bradley.</p>
                         <div class="project--video"><iframe width="560" height="315" src="https://www.youtube.com/embed/GwsUInMpFME?si=uMDRYMxRu3y2M4dN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
@@ -55,28 +55,33 @@
                         </div>
                     </div>
                 <hr />
-                    <div class="project--card" id="project--undersea">
-                        <h2 class="project--title" id="project--undersea"><i class="fa-solid fa-film"></i> Undersea</h3>
+                    <div class="project--card" id="project--undersea" class="project--video project--blender">
+                        <h2 class="project--title" id="project--undersea"><i class="fa-solid fa-film"></i><i class="fa-solid fa-blender"></i> Undersea</h3>
                         <p class="project--date"><i class="fa-solid fa-calendar-days"></i> November 2024</p>
                         <p class="project--nmedwinner"><i class="fa-solid fa-award"></i> Nominated for the University of Lethbridge New Media Student Showcase.</p>
                         <div class="project--video"><iframe width="560" height="315" src="https://www.youtube.com/embed/3a3VAOxFWfY?si=hCw8lTY3pT4GHyOW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-                        <p><a class="project--link" href="https://ulethnewmedia.com/2025/undersea/">Undersea - University of Lethbridge New Media Student Showcase</a></p>
-                        <p class="project--description">Undersea is a video created for the Nikka Yuko Japanese Gardens projection dome in Lethbridge, Alberta for the Emerging Video Technology class at the University of Lethbridge. The project was meant to invoke the feeling of slowly sinking into tranquil waters.<br />
-                            The project was created primarily through Blender, with additional effects added via Adobe After Effects. To achieve the effect of slowly sinking into the water, the animation took place underneath a surface using Blender’s Ocean modifier to create the wave-like distortions, as well as a cube with a volumetric shader to emulate the water. The fish themselves were animated using keyframes and Blender’s Displacement modifier in combination with a noise texture. Finally, in order to simulate the curvature of the projection dome, a fisheye lens was simulated. Once this was all done, the entire animation was rendered using Blender’s Cycles rendering engine.<br />
-                            With the animation created, I then imported the animation into Adobe After Effects. Using After Effects' built-in particle and wave simulation systems, I created the splash effect, as well as the bubbles that occur any time the viewer is sinking. After Effects allowed me to simulate these effects in three-dimensional space as well as use keyframes to modulate the intensity as well as the color of these effects over the course of the animation. Finally, the project was brought together by adding royalty-free audio found from across the internet using sources like Pixabay and Freesound, with some added audio distortion to truly emulate the experience of being underwater.
-                        </p>
-                        
+                        <p><a class="project--link" href="https://ulethnewmedia.com/2025/undersea/"><i class="fa-brands fa-youtube"></i> Undersea - University of Lethbridge New Media Student Showcase</a></p>
+                        <p class="project--description"><span class="title--deco">Undersea</span> is a video created for the Nikka Yuko Japanese Gardens projection dome in Lethbridge, Alberta for the Emerging Video Technology class at the University of Lethbridge. The project was meant to invoke the feeling of slowly sinking into tranquil waters.</p>
+                        <p class="project--description">The project was created primarily through Blender, with additional effects added via Adobe After Effects. To achieve the effect of slowly sinking into the water, the animation took place underneath a surface using Blender's Ocean modifier to create the wave-like distortions, as well as a cube with a volumetric shader to emulate the water. The fish themselves were animated using keyframes and Blender's Displacement modifier in combination with a noise texture. Finally, in order to simulate the curvature of the projection dome, a fisheye lens was simulated. Once this was all done, the entire animation was rendered using Blender's Cycles rendering engine.</p>
+                        <p class="project--description">With the animation created, I then imported the animation into Adobe After Effects. Using After Effects' built-in particle and wave simulation systems, I created the splash effect, as well as the bubbles that occur any time the viewer is sinking. After Effects allowed me to simulate these effects in three-dimensional space as well as use keyframes to modulate the intensity as well as the color of these effects over the course of the animation. Finally, the project was brought together by adding royalty-free audio found from across the internet using sources like Pixabay and Freesound, with some added audio distortion to truly emulate the experience of being underwater.</p>
                     </div>
                 <hr />
-                    <div class="project--card" id="project--4096">
-                        <h2 class="project--title"><i class="fa-solid fa-gamepad"></i> 4096</h3>
+                    <div class="project--card" id="project--4096" class="project--game project--code project--unity project--blender">
+                        <h2 class="project--title"><i class="fa-solid fa-gamepad"></i><i class="fa-solid fa-code"></i><i class="fa-brands fa-unity"><i class="fa-solid fa-blender"></i> 4096</h3>
                         <p class="project--date"><i class="fa-solid fa-calendar-days"></i> October 2024</p>
-                        <p><a class="project--link" href="https://github.com/LunarEcklipse/AdvancedGameDesign_4096">4096 - GitHub</a></p>
-                        <p class="project--description">4096 is a puzzle video game created in five days for the Advanced Game Design Studio class at the University of Lethbridge. Created in a Game Jam style setting, it was inspired by a prompt, for which we were given the number "4096".<br />
-                            As the cubic root of 4096 is 16, we created a pair of "shapes" that could be fit inside of a 16x16x16 cube for a total of 4096 blocks. The player can click on these blocks to excavate them, eventually revealing a final shape. 4096 in particular however was important as it was the first time I spent a significant amount of effort on game optimization. As spawning 4096 cubes all at once resulted in poor performance, I instead implemented a "voxel" approach, where you use the positional data of each element to dynamically create 3D geometry the player can interact with. This massively improved performance while also helping me learn about a new technique for displaying computer graphics.</p>
+                        <p><a class="project--link" href="https://github.com/LunarEcklipse/AdvancedGameDesign_4096"><i class="fa-brands fa-github"></i> 4096 - GitHub</a></p>
+                        <p class="project--description"><span class="title--deco">4096</span> is a puzzle video game created in five days for the Advanced Game Design Studio class at the University of Lethbridge. Created in a Game Jam style setting, it was inspired by a prompt, for which we were given the number "4096".</p>
+                        <p class="project--description"></p>As the cubic root of 4096 is 16, we created a pair of "shapes" that could be fit inside of a 16x16x16 cube for a total of 4096 blocks. The player can click on these blocks to excavate them, eventually revealing a final shape. 4096 in particular however was important as it was the first time I spent a significant amount of effort on game optimization. As spawning 4096 cubes all at once resulted in poor performance, I instead implemented a "voxel" approach, where you use the positional data of each element to dynamically create 3D geometry the player can interact with. This massively improved performance while also helping me learn about a new technique for displaying computer graphics.</p>
                     </div>
                 <hr />
-
+                <div class="project--card" id="project--verityfalls" class="project--game project--code project--unity project--blender">
+                    <h2 class="project--title"><i class="fa-solid fa-gamepad"></i><i class="fa-solid fa-code"></i><i class="fa-brands fa-unity"><i class="fa-solid fa-blender"> Verity Falls</h3>
+                    <p class="project--date"><i class="fa-solid fa-calendar-days"></i> April 2024</p>
+                    <p><a class="project--link" href="https://github.com/LunarEcklipse/GameDesign_VerityFalls"><i class="fa-brands fa-github"></i> Verity Falls - GitHub</a></p>
+                    <p class="project--description"><span class="title--deco">Verity Falls</span> is a visual novel video game created for the Game Design: Theory and Practice class at the University of Lethbridge using Unity. It features a cast of characters whose car is sabotaged as they arrive in town as they try to figure out who wants to keep them there and why.</p>
+                    <p class="project--description">Verity Falls features 3D environments that the player can explore and interact with, as well as a cast of characters they can speak to. The dialogue system was made entirely from scratch, and characters can move around and change their dialogue in response to events and player progression.</p>
+                </div>
+            <hr />
             </main>
             <footer>
 
