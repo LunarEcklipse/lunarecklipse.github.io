@@ -31,11 +31,17 @@ function sortProjects() {
 
 document.addEventListener("DOMContentLoaded", function(event) { // Wait until everything is loaded to do work
     gameButton = document.getElementById("gameButton");
+    gameButton.addEventListener("click", toggleGame);
     codeButton = document.getElementById("codeButton");
+    codeButton.addEventListener("click", toggleCode);
     unityButton = document.getElementById("unityButton");
+    unityButton.addEventListener("click", toggleUnity);
     videoButton = document.getElementById("videoButton");
+    videoButton.addEventListener("click", toggleVideo);
     blenderButton = document.getElementById("blenderButton");
+    blenderButton.addEventListener("click", toggleBlender);
     arduinoButton = document.getElementById("arduinoButton");
+    arduinoButton.addEventListener("click", toggleArduino);
     sortProjects();
 });
 
