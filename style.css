@@ -17,6 +17,7 @@
     --date-color: #ce9154;
     --title-deco-color: #d7ba7d;
     --showcase-nominee-color: #c586c0;
+    --collab-color: #b5cea8;
 }
 
 body
@@ -91,6 +92,12 @@ a:hover
 {
     font-size:0.9em;
     color: var(--showcase-nominee-color);
+}
+
+.project--collab
+{
+    font-size:0.9em;
+    color: var(--collab-color);
 }
 
 .project--video
