@@ -111,3 +111,7 @@ a:hover
     font-style: italic;
 }
 
+.photoswipe--gallery
+{
+    text-align:center;
+}
