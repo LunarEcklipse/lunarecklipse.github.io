@@ -23,6 +23,7 @@
 body
 {
     background-color: var(--header-background-color);
+    background-image: url("./images/bg.png");
     color: var(--main-text-color);
     margin: 0;
 }
