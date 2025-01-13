@@ -1,0 +1,106 @@
+/* Font stuff */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variables */
+:root
+{
+    --header-background-color: #181818;
+    --main-background-color : #1f1f1f;
+    --header-text-color: #ffffff;
+    --main-text-color: #cccccc;
+
+    --link-text-color: #3b9cd6;
+    --link-hover-text-color: #83dcef;
+
+    --line-break-text-color: #808064;
+    --date-color: #ce9154;
+    --title-deco-color: #d7ba7d;
+    --showcase-nominee-color: #c586c0;
+}
+
+body
+{
+    background-color: var(--header-background-color);
+    color: var(--main-text-color);
+    margin: 0;
+}
+
+#foreground-wrapper
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--main-background-color);
+    margin: 0 20vw;
+}
+
+header, main, footer
+{
+    padding: 0.25em 2em;
+}
+
+hr
+{
+    border: 1px solid var(--line-break-text-color);
+    width: 20%;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--header-text-color);
+}
+
+p, a, li
+{
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+}
+
+.project--link
+{
+    font-size: 1.1em;
+}
+
+a
+{
+    color: var(--link-text-color);
+    text-decoration: none;
+    transition: color 0.25s, text-decoration 0.25s;
+}
+
+a:hover
+{
+    color: var(--link-hover-text-color);
+    text-decoration: underline;
+    transition: color 0.25s, text-decoration 0.25s;
+}
+
+.project--date
+{
+    font-size: 0.9em;
+    color: var(--date-color);
+}
+
+.project--nmedwinner
+{
+    font-size:0.9em;
+    color: var(--showcase-nominee-color);
+}
+
+.project--video
+{
+    text-align:center;
+}
+
+.title--deco
+{
+    color: var(--title-deco-color);
+    font-style: italic;
+}
+

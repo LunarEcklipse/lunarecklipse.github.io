@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Kaden Duncan-Matis' Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script type="module">
+            import PhotoSwipeLightbox from 'scripts/photoswipe/dist/photoswipe-lightbox.esm.js';
+            import Photoswipe from 'scripts/photoswipe/dist/photoswipe.esm.js';
+            const vamplifyLightbox = new PhotoSwipeLightbox({
+                gallery: '#photogallery--vamplify',
+                children: 'a',
+                pswpModule: Photoswipe
+            });
+            vamplifyLightbox.init();
+        </script>
+        <link rel="stylesheet" href="scripts/photoswipe/dist/photoswipe.css">
+    </head>
+    <body>
+        <div id="foreground-wrapper">
+            <header>
+                <h1 id="title">Kaden Duncan-Matis</h1>
+                <div class="description">
+                    <p>I am a New Media student at the University of Lethbridge with an interest in game design, theory, and development. I have a number of skills across the digital spectrum, including programming, videography, web design and development, and 3D modelling and animation.</p>
+                </div>
+            </header>
+            <main>
+                <h1 id="project--title">Projects</h2>
+                <hr />
+                <div id="project--container">
+                    <div class="project--card" id="project--vamplify">
+                        <h2 class="project--title">Vamplify</h3>
+                        <p class="project--date">December 2024</p>
+                        <p class="project--collab">Created in Collaboration with Luke Souter and Liam Bradley.</p>
+                        <div class="project--video"><iframe width="560" height="315" src="https://www.youtube.com/embed/GwsUInMpFME?si=uMDRYMxRu3y2M4dN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <p><a class="project--link" href="https://github.com/LunarEcklipse/AdvancedGameDesign_Vamplify">Vamplify - GitHub</a></p>
+                        <p class="project--description"><span class="title--deco">Vamplify</span> is a turn-based roguelike video game built in Unity Engine in two months for the Advanced Game Design Studio class at the University of Lethbridge. The player plays as a vampire who enters a manor with the goal of achieving as much power as possible. This power is achieved by the grafting of limbs of fallen opponents onto one's body.</p>
+                        <p class="project--description">For this project, I was responsible for gameplay design and programming. The turn system was written entirely custom by myself, along with the enemy AI, as well as the system for randomly generated treasure. These treasures were able to accept a series of random modifiers which made them stronger or weaker. It also featured a system for calculating attacks on a grid-based system which was created entirely custom, allowing the player's attacks to hit different arrays of tiles, which could even be blocked by obstacles in the environment.</p>   
+                        <div id="photogallery--vamplify">
+                            <a href="images/vamplify/1.jpg">
+                                <img src="images/1.jpg" alt="Vamplify Image 1">
+                            </a>
+                            <a href="images/vamplify/2.jpg">
+                                <img src="images/2.jpg" alt="Vamplify Image 2">
+                            </a>
+                            <a href="images/vamplify/3.jpg">
+                                <img src="images/3.jpg" alt="Vamplify Image 3">
+                            </a>
+                        </div>
+                    </div>
+                <hr />
+                    <div class="project--card" id="project--undersea">
+                        <h2 class="project--title" id="project--undersea">Undersea</h3>
+                        <p class="project--date">November 2024</p>
+                        <p class="project--nmedwinner">Nominated for the University of Lethbridge New Media Student Showcase.</p>
+                        <div class="project--video"><iframe width="560" height="315" src="https://www.youtube.com/embed/3a3VAOxFWfY?si=hCw8lTY3pT4GHyOW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <p><a class="project--link" href="https://ulethnewmedia.com/2025/undersea/">Undersea - University of Lethbridge New Media Student Showcase</a></p>
+                        <p class="project--description">Undersea is a video created for the Nikka Yuko Japanese Gardens projection dome in Lethbridge, Alberta for the Emerging Video Technology class at the University of Lethbridge. The project was meant to invoke the feeling of slowly sinking into tranquil waters.<br />
+                            The project was created primarily through Blender, with additional effects added via Adobe After Effects. To achieve the effect of slowly sinking into the water, the animation took place underneath a surface using Blender’s Ocean modifier to create the wave-like distortions, as well as a cube with a volumetric shader to emulate the water. The fish themselves were animated using keyframes and Blender’s Displacement modifier in combination with a noise texture. Finally, in order to simulate the curvature of the projection dome, a fisheye lens was simulated. Once this was all done, the entire animation was rendered using Blender’s Cycles rendering engine.<br />
+                            With the animation created, I then imported the animation into Adobe After Effects. Using After Effects' built-in particle and wave simulation systems, I created the splash effect, as well as the bubbles that occur any time the viewer is sinking. After Effects allowed me to simulate these effects in three-dimensional space as well as use keyframes to modulate the intensity as well as the color of these effects over the course of the animation. Finally, the project was brought together by adding royalty-free audio found from across the internet using sources like Pixabay and Freesound, with some added audio distortion to truly emulate the experience of being underwater.
+                        </p>
+                        
+                    </div>
+                <hr />
+                    <div class="project--card" id="project--4096">
+                        <h2 class="project--title">4096</h3>
+                        <p class="project--date">October 2024</p>
+                        <p><a class="project--link" href="https://github.com/LunarEcklipse/AdvancedGameDesign_4096">4096 - GitHub</a></p>
+                        <p class="project--description">4096 is a puzzle video game created in five days for the Advanced Game Design Studio class at the University of Lethbridge. Created in a Game Jam style setting, it was inspired by a prompt, for which we were given the number "4096".<br />
+                            As the cubic root of 4096 is 16, we created a pair of "shapes" that could be fit inside of a 16x16x16 cube for a total of 4096 blocks. The player can click on these blocks to excavate them, eventually revealing a final shape. 4096 in particular however was important as it was the first time I spent a significant amount of effort on game optimization. As spawning 4096 cubes all at once resulted in poor performance, I instead implemented a "voxel" approach, where you use the positional data of each element to dynamically create 3D geometry the player can interact with. This massively improved performance while also helping me learn about a new technique for displaying computer graphics.</p>
+                    </div>
+                <hr />
+
+            </main>
+            <footer>
+
+            </footer>
+        </div>
+    </body>
+</html>
