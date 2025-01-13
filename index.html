@@ -18,6 +18,12 @@
                 pswpModule: Photoswipe
             });
             vamplifyLightbox.init();
+            const underseaLightbox = new PhotoSwipeLightbox({
+                gallery: '#photogallery--undersea',
+                children: 'a',
+                pswpModule: Photoswipe
+            });
+            underseaLightbox.init();
         </script>
         <link rel="stylesheet" href="scripts/photoswipe/dist/photoswipe.css">
     </head>
@@ -78,6 +84,38 @@
                         <p class="project--description"><span class="title--deco">Undersea</span> is a video created for the Nikka Yuko Japanese Gardens projection dome in Lethbridge, Alberta for the Emerging Video Technology class at the University of Lethbridge. The project was meant to invoke the feeling of slowly sinking into tranquil waters.</p>
                         <p class="project--description">The project was created primarily through Blender, with additional effects added via Adobe After Effects. To achieve the effect of slowly sinking into the water, the animation took place underneath a surface using Blender's Ocean modifier to create the wave-like distortions, as well as a cube with a volumetric shader to emulate the water. The fish themselves were animated using keyframes and Blender's Displacement modifier in combination with a noise texture. Finally, in order to simulate the curvature of the projection dome, a fisheye lens was simulated. Once this was all done, the entire animation was rendered using Blender's Cycles rendering engine.</p>
                         <p class="project--description">With the animation created, I then imported the animation into Adobe After Effects. Using After Effects' built-in particle and wave simulation systems, I created the splash effect, as well as the bubbles that occur any time the viewer is sinking. After Effects allowed me to simulate these effects in three-dimensional space as well as use keyframes to modulate the intensity as well as the color of these effects over the course of the animation. Finally, the project was brought together by adding royalty-free audio found from across the internet using sources like Pixabay and Freesound, with some added audio distortion to truly emulate the experience of being underwater.</p>
+                        <div id="photogallery--undersea">
+                            <a href="images/undersea/1.png"
+                                data-pswp-width="2560"
+                                data-pswp-height="1390"
+                                target="_blank">
+                                <img src="images/undersea/thumbnails_256/1.png" alt="An image showing a wireframe of Undersea in Blender.">
+                            </a>
+                            <a href="images/undersea/2.png"
+                            data-pswp-width="2560"
+                            data-pswp-height="1390"
+                            target="_blank">
+                                <img src="images/undersea/thumbnails_256/2.png" alt="An image showing the animation keys of various fish for Undersea in Blender.">
+                            </a>
+                            <a href="images/undersea/3.png"
+                            data-pswp-width="2560"
+                            data-pswp-height="1390"
+                            target="_blank">
+                                <img src="images/undersea/thumbnails_256/3.png" alt="An image showing the render area for Undersea in Blender.">
+                            </a>
+                            <a href="images/undersea/4.png"
+                            data-pswp-width="2560"
+                            data-pswp-height="1390"
+                            target="_blank">
+                                <img src="images/undersea/thumbnails_256/4.png" alt="An image showing the audio and video composition for Undersea in Adobe Premiere Pro.">
+                            </a>
+                            <a href="images/undersea/5.png"
+                            data-pswp-width="2560"
+                            data-pswp-height="1390"
+                            target="_blank">
+                                <img src="images/undersea/thumbnails_256/5.png" alt="An image showing the generation of the wave effects that appear in Undersea in Adobe After Effects.">
+                            </a>
+                        </div>
                     </div>
                 <hr />
                     <div class="project--card" id="project--4096" class="project--game project--code project--unity project--blender">
