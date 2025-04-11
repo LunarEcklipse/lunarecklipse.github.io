@@ -9,6 +9,7 @@
     --main-background-color : #1f1f1f;
     --header-text-color: #ffffff;
     --main-text-color: #cccccc;
+    --misc-text-color: #999999;
 
     --link-text-color: #3b9cd6;
     --link-hover-text-color: #83dcef;
@@ -16,7 +17,7 @@
     --line-break-text-color: #808064;
     --date-color: #ce9154;
     --title-deco-color: #d7ba7d;
-    --showcase-nominee-color: #c586c0;
+    --awarded-project-color: #c586c0;
     --collab-color: #b5cea8;
 }
 
@@ -64,6 +65,14 @@ p, a, li
     text-align: center;
 }
 
+ul, li
+{
+    list-style-position: inside;
+    padding-left: none;
+    margin-left: none;
+    text-align: center;
+}
+
 .project--link
 {
     font-size: 1.1em;
@@ -89,10 +98,16 @@ a:hover
     color: var(--date-color);
 }
 
-.project--nmedwinner
+.project--miscsubheader
+{
+    font-size: 0.9em;
+    color: var(--misc-text-color)
+}
+
+.project--award
 {
     font-size:0.9em;
-    color: var(--showcase-nominee-color);
+    color: var(--awarded-project-color);
 }
 
 .project--collab
