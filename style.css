@@ -62,14 +62,10 @@ h1, h2, h3, h4, h5, h6
 p, a, li
 {
     font-family: 'Fira Code', monospace;
-    text-align: center;
 }
 
-ul, li
+p
 {
-    list-style-position: inside;
-    padding-left: none;
-    margin-left: none;
     text-align: center;
 }
 
